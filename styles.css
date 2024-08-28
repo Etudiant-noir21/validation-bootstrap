@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+
+    color: #fff;
+
+}
+ body{
+    max-width: 1500px;
+    background-color: #252B42;
+ }
+ /* la navbar */
+ .navbar .nav-link {
+    color: #fff;
+    font-weight: 600;
+ }
+
+ .navbar-toggler span{
+    color: #fff;
+    font-size: 30px;
+    border: none;
+}
+.navbar-toggler:focus{
+     border-color: #fff;
+
+ }
+ .login a{
+    margin-right: 5rem;
+    display: block;
+ }
+ /* section */
+ section{
+    padding: 80px 20px;
+ }
+ /* section home */
+ .link-learn .Learn-more{
+    border: 1px solid;
+ }
+ /* section product */
+ #product .icon .img-fluid{
+    padding: 15px;
+    background-color: red;
+    border-radius: 10px;
+ }
+ #product .tire{
+    width: 50px;
+    height: 4px;
+    margin: auto;
+    background-color: red;
+    
+ }
+.product-item p{
+    color: grey;
+    font-weight: 500;
+}
+/* featuring */
+#featuring .tire{
+    width: 200px;
+    height: 10px;
+    background-color: red;
+}
+/* courses */
+#courses .link-sale{
+    top: 20px;
+    left: 50px;
+}
+#courses .icons{
+    bottom: 10%;
+    left: 45%;
+}
+#courses .icons i{
+    font-size: 30px;
+margin-right: 20px;
+background: #fff;
+padding: 10px;
+border-radius: 50%;
+}
+.star{
+    background-color: #252B42;
+    padding: 5px;
+    border-radius: 20px;
+}
+.vert{
+    color: green;
+}
+#courses p{
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+}
+#courses .learn-more{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* clients */
+#clients .img-side .img-fluid{
+    border-radius: 50%;
+    height: 150px;
+
+}
+#clients .infos{
+    color: #aaa;
+    font-size: 18px;
+    font-weight: 600;
+}
+#clients .stars-icon i{
+    color: orange;
+}
+#clients .personal-infos p{
+color: #aaa;
+}
+/* footer */
+footer h2{
+    color: #070b18;
+}
+footer li{
+    line-height: 2.2;
+}
+footer li a{
+    color: #aaa;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer i{
+    cursor: pointer;
+    font-size: 30px;
+}
