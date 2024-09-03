@@ -72,19 +72,30 @@ a{
 }
 #courses .icons{
     bottom: 10%;
-    left: 45%;
+    left: 30%;
 }
 #courses .icons i{
-    font-size: 30px;
+    font-size: 25px;
 margin-right: 20px;
-background: #fff;
+
+}
+#courses .icons span{
+    background: #fff;
+    width: 50px;
+    height: 50px;
 padding: 10px;
 border-radius: 50%;
+display: inline-block;
+
+
+
+
 }
 .star{
     background-color: #252B42;
     padding: 5px;
     border-radius: 20px;
+    font-size: 10px;
 }
 .vert{
     color: green;
@@ -116,6 +127,12 @@ border-radius: 50%;
 #clients .personal-infos p{
 color: #aaa;
 }
+
+/* contact */
+input[type="submit"]{
+    background-color: #23A6F0;
+    color: #fff;
+}
 /* footer */
 footer h2{
     color: #070b18;
@@ -131,4 +148,5 @@ footer li a{
 footer i{
     cursor: pointer;
     font-size: 30px;
+    color: #23A6F0;
 }
